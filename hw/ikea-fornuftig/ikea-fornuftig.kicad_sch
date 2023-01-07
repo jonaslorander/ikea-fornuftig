@@ -3,6 +3,12 @@
   (uuid a481dafd-4482-4d2b-9bf0-aafa61621a76)
 
   (paper "A4")
+  (title_block
+    (title "IKEA FÖRNUFTIG Smart PCB")
+    (date "2023-01-07")
+    (comment 1 "https://jonas.lorander.com/")
+    (comment 2 "jonas@lorander.com")
+  )
 
   (lib_symbols
   )
