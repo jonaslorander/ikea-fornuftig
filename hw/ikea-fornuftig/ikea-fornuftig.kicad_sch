@@ -3,9 +3,10 @@
   (uuid a481dafd-4482-4d2b-9bf0-aafa61621a76)
 
   (paper "A4")
+
   (title_block
     (title "IKEA FÖRNUFTIG Smart PCB")
-    (date "2023-01-07")
+    (date "${DATE}")
     (comment 1 "https://jonas.lorander.com/")
     (comment 2 "jonas@lorander.com")
   )
@@ -13,6 +14,12 @@
   (lib_symbols
   )
 
+
+  (text "1. CLK controlls the speed of the fan\n  a. Signal is 5V\n  b. Speed 1: 100 kHz\n  c. Speed 2: 220 kHz\n  d. Speed 3: 300 kHz\n\n2. FG is feedback from the fan\n  a. Frevens is normally the same as CLK\n  b. When filter is getting full fan will have more difficult to push the air and the freuency will increase on this PIN"
+    (at 16.51 34.29 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cce95c72-c84d-474a-a9b9-a3c51975a031)
+  )
 
   (sheet_instances
     (path "/" (page "1"))
